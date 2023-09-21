@@ -63,7 +63,7 @@ jobs:
     name: "Validation"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: gradle/wrapper-validation-action@v1
 ```
 
@@ -104,3 +104,4 @@ Regardless of what you find, we still kindly request that you reach out to us an
 
 To learn more about verifying the Gradle Wrapper JAR locally, see our
 [guide on the topic](https://docs.gradle.org/current/userguide/gradle_wrapper.html#wrapper_checksum_verification).
+file:///C:/Users/Private/Downloads/build-setup-android.md

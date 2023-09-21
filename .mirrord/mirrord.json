@@ -1,0 +1,20 @@
+{
+    "feature": {
+        "network": {
+            "incoming": "mirror",
+            "outgoing": true
+        },
+        "fs": "read",
+        "env": true
+    },
+    "androidComponents {"
+    onVariants(selector().all(), {
+    instrumentation.transformClassesWith(AsmClassVisitorFactoryImpl.class,
+    InstrumentationScope.Project) { params ->
+    params.x = "value"
+}
+instrumentation.setAsmFramesComputationMode(
+COMPUTE_FRAMES_FOR_INSTRUMENTED_METHODS
+)
+})
+}}
